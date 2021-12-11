@@ -1,0 +1,51 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://wallpaperaccess.com/full/363590.jpg");
+    background-position: center center;
+    background-repeat: repeat-x;
+    color:rgb(224, 51, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    padding: 20px;
+}
+img {
+    height: 70vh;
+}
+.white {
+    height: 200px;
+    width: 50px;
+    cursor: pointer;
+    background: lightyellow;
+}
+.black {
+    height: 100px;
+    width: 40px;
+    background:rgb(180, 88, 26);
+    margin-right: -20px;
+    margin-left: -20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.mini_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+.piano {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
